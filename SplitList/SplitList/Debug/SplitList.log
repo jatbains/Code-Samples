@@ -1,0 +1,4 @@
+﻿  SplitList.cpp
+C:\Users\jatba\source\repos\SplitList\SplitList\SplitList.cpp(64,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\SplitList\SplitList\SplitList.cpp(73,23): warning C4018: '<': signed/unsigned mismatch
+  SplitList.vcxproj -> C:\Users\jatba\source\repos\SplitList\Debug\SplitList.exe

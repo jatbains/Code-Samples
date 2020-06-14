@@ -1,0 +1,4 @@
+﻿  LengthofLastWord.cpp
+C:\Users\jatba\source\repos\LengthofLastWord\LengthofLastWord\LengthofLastWord.cpp(26,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\LengthofLastWord\LengthofLastWord\LengthofLastWord.cpp(44,39): warning C4018: '<': signed/unsigned mismatch
+  LengthofLastWord.vcxproj -> C:\Users\jatba\source\repos\LengthofLastWord\Debug\LengthofLastWord.exe

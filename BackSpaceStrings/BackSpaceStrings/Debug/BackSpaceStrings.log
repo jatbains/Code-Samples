@@ -1,0 +1,8 @@
+﻿  BackSpaceStrings.cpp
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(37,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(80,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(144,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(159,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(162,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\BackSpaceStrings\BackSpaceStrings\BackSpaceStrings.cpp(212,23): warning C4018: '<': signed/unsigned mismatch
+  BackSpaceStrings.vcxproj -> C:\Users\jatba\source\repos\BackSpaceStrings\Debug\BackSpaceStrings.exe

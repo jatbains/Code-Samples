@@ -1,0 +1,3 @@
+﻿  RootToLeafBinary.cpp
+C:\Users\jatba\source\repos\RootToLeafBinary\RootToLeafBinary\RootToLeafBinary.cpp(16,9): warning C4101: 'res': unreferenced local variable
+C:\Users\jatba\source\repos\RootToLeafBinary\RootToLeafBinary\RootToLeafBinary.cpp(22,5): error C3861: 'sumRootRecur': identifier not found

@@ -1,0 +1,4 @@
+﻿  MultiplyStrings.cpp
+C:\Users\jatba\source\repos\MultiplyStrings\MultiplyStrings\MultiplyStrings.cpp(63,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MultiplyStrings\MultiplyStrings\MultiplyStrings.cpp(85,23): warning C4018: '<': signed/unsigned mismatch
+  MultiplyStrings.vcxproj -> C:\Users\jatba\source\repos\MultiplyStrings\Debug\MultiplyStrings.exe

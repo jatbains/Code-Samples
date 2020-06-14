@@ -1,0 +1,5 @@
+﻿  KeysandRooms.cpp
+C:\Users\jatba\source\repos\KeysandRooms\KeysandRooms\KeysandRooms.cpp(53,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\KeysandRooms\KeysandRooms\KeysandRooms.cpp(70,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\KeysandRooms\KeysandRooms\KeysandRooms.cpp(96,23): warning C4018: '<': signed/unsigned mismatch
+  KeysandRooms.vcxproj -> C:\Users\jatba\source\repos\KeysandRooms\Debug\KeysandRooms.exe

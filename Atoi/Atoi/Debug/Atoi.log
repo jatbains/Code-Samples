@@ -1,0 +1,4 @@
+﻿  Atoi.cpp
+C:\Users\jatba\source\repos\Atoi\Atoi\Atoi.cpp(17,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\Atoi\Atoi\Atoi.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+  Atoi.vcxproj -> C:\Users\jatba\source\repos\Atoi\Debug\Atoi.exe

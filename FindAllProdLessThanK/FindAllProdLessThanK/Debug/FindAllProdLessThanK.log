@@ -1,0 +1,4 @@
+﻿  FindAllProdLessThanK.cpp
+C:\Users\jatba\source\repos\FindAllProdLessThanK\FindAllProdLessThanK\FindAllProdLessThanK.cpp(32,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jatba\source\repos\FindAllProdLessThanK\FindAllProdLessThanK\FindAllProdLessThanK.cpp(53,27): warning C4018: '<': signed/unsigned mismatch
+  FindAllProdLessThanK.vcxproj -> C:\Users\jatba\source\repos\FindAllProdLessThanK\Debug\FindAllProdLessThanK.exe

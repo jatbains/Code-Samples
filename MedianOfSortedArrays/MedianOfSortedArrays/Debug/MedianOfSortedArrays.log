@@ -1,0 +1,3 @@
+﻿  MedianOfSortedArrays.cpp
+C:\Users\jatba\source\repos\MedianOfSortedArrays\MedianOfSortedArrays\MedianOfSortedArrays.cpp(60,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  MedianOfSortedArrays.vcxproj -> C:\Users\jatba\source\repos\MedianOfSortedArrays\Debug\MedianOfSortedArrays.exe

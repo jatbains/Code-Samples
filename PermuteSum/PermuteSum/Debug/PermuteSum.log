@@ -1,0 +1,4 @@
+﻿  PermuteSum.cpp
+C:\Users\jatba\source\repos\PermuteSum\PermuteSum\PermuteSum.cpp(55,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\PermuteSum\PermuteSum\PermuteSum.cpp(78,23): warning C4018: '<': signed/unsigned mismatch
+  PermuteSum.vcxproj -> C:\Users\jatba\source\repos\PermuteSum\Debug\PermuteSum.exe

@@ -1,0 +1,4 @@
+﻿  FindAmountOwed.cpp
+C:\Users\jatba\source\repos\FindAmountOwed\FindAmountOwed\FindAmountOwed.cpp(97,26): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\jatba\source\repos\FindAmountOwed\FindAmountOwed\FindAmountOwed.cpp(97,22): warning C4309: 'initializing': truncation of constant value
+  FindAmountOwed.vcxproj -> C:\Users\jatba\source\repos\FindAmountOwed\Debug\FindAmountOwed.exe

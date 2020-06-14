@@ -1,0 +1,5 @@
+﻿  SplitArrayIntoEqualSums.cpp
+C:\Users\jatba\source\repos\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums.cpp(23,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums.cpp(47,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums\SplitArrayIntoEqualSums.cpp(53,35): warning C4018: '<': signed/unsigned mismatch
+  SplitArrayIntoEqualSums.vcxproj -> C:\Users\jatba\source\repos\SplitArrayIntoEqualSums\Debug\SplitArrayIntoEqualSums.exe

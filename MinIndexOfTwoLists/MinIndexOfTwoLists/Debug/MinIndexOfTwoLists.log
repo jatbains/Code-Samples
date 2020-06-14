@@ -1,0 +1,4 @@
+﻿  MinIndexOfTwoLists.cpp
+C:\Users\jatba\source\repos\MinIndexOfTwoLists\MinIndexOfTwoLists\MinIndexOfTwoLists.cpp(35,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MinIndexOfTwoLists\MinIndexOfTwoLists\MinIndexOfTwoLists.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+  MinIndexOfTwoLists.vcxproj -> C:\Users\jatba\source\repos\MinIndexOfTwoLists\Debug\MinIndexOfTwoLists.exe

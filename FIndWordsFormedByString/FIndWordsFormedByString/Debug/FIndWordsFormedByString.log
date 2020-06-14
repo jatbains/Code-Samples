@@ -1,0 +1,4 @@
+﻿  FIndWordsFormedByString.cpp
+C:\Users\jatba\source\repos\FIndWordsFormedByString\FIndWordsFormedByString\FIndWordsFormedByString.cpp(36,33): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jatba\source\repos\FIndWordsFormedByString\FIndWordsFormedByString\FIndWordsFormedByString.cpp(65,23): warning C4018: '<': signed/unsigned mismatch
+  FIndWordsFormedByString.vcxproj -> C:\Users\jatba\source\repos\FIndWordsFormedByString\Debug\FIndWordsFormedByString.exe

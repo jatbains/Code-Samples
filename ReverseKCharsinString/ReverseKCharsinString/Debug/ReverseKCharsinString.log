@@ -1,0 +1,4 @@
+﻿  ReverseKCharsinString.cpp
+C:\Users\jatba\source\repos\ReverseKCharsinString\ReverseKCharsinString\ReverseKCharsinString.cpp(41,25): warning C4804: '~': unsafe use of type 'bool' in operation
+C:\Users\jatba\source\repos\ReverseKCharsinString\ReverseKCharsinString\ReverseKCharsinString.cpp(47): warning C4715: 'reverseStr': not all control paths return a value
+  ReverseKCharsinString.vcxproj -> C:\Users\jatba\source\repos\ReverseKCharsinString\Debug\ReverseKCharsinString.exe

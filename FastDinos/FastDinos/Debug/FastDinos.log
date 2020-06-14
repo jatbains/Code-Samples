@@ -1,0 +1,11 @@
+﻿  FastDinos.cpp
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(72,63): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(74,61): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(76,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(78,61): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(80,66): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(82,62): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(84,65): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(86,50): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jatba\source\repos\FastDinos\FastDinos\FastDinos.cpp(93,78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  FastDinos.vcxproj -> C:\Users\jatba\source\repos\FastDinos\Debug\FastDinos.exe

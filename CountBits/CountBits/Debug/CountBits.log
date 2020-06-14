@@ -1,0 +1,3 @@
+﻿  CountBits.cpp
+C:\Users\jatba\source\repos\CountBits\CountBits\CountBits.cpp(24,17): warning C4018: '<=': signed/unsigned mismatch
+  CountBits.vcxproj -> C:\Users\jatba\source\repos\CountBits\Debug\CountBits.exe

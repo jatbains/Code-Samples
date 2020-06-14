@@ -1,0 +1,8 @@
+﻿  MaxLengthConCat.cpp
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(37,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(55,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(85,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(97,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jatba\source\repos\MaxLengthConCat\MaxLengthConCat\MaxLengthConCat.cpp(110,27): warning C4018: '<': signed/unsigned mismatch
+  MaxLengthConCat.vcxproj -> C:\Users\jatba\source\repos\MaxLengthConCat\Debug\MaxLengthConCat.exe

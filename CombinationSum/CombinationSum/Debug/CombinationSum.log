@@ -1,0 +1,4 @@
+﻿  CombinationSum.cpp
+C:\Users\jatba\source\repos\CombinationSum\CombinationSum\CombinationSum.cpp(33,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jatba\source\repos\CombinationSum\CombinationSum\CombinationSum.cpp(56,23): warning C4018: '<': signed/unsigned mismatch
+  CombinationSum.vcxproj -> C:\Users\jatba\source\repos\CombinationSum\Debug\CombinationSum.exe

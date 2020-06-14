@@ -1,0 +1,4 @@
+﻿  PallindromicSubstrings.cpp
+C:\Users\jatba\source\repos\PallindromicSubstrings\PallindromicSubstrings\PallindromicSubstrings.cpp(26,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jatba\source\repos\PallindromicSubstrings\PallindromicSubstrings\PallindromicSubstrings.cpp(44,27): warning C4018: '<': signed/unsigned mismatch
+  PallindromicSubstrings.vcxproj -> C:\Users\jatba\source\repos\PallindromicSubstrings\Debug\PallindromicSubstrings.exe

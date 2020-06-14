@@ -1,0 +1,3 @@
+﻿  FindComplement.cpp
+C:\Users\jatba\source\repos\FindComplement\FindComplement\FindComplement.cpp(21,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  FindComplement.vcxproj -> C:\Users\jatba\source\repos\FindComplement\Debug\FindComplement.exe
