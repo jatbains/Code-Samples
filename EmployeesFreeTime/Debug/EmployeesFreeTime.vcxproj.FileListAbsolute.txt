@@ -1,0 +1,2 @@
+D:\source\repos\EmployeesFreeTime\Debug\EmployeesFreeTime.exe
+D:\source\repos\EmployeesFreeTime\Debug\EmployeesFreeTime.pdb
