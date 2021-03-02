@@ -1,0 +1,2 @@
+C:\Users\jatba\source\repos\FindMedianOfTwoSortedArrays\Debug\FindMedianOfTwoSortedArrays.exe
+C:\Users\jatba\source\repos\FindMedianOfTwoSortedArrays\Debug\FindMedianOfTwoSortedArrays.pdb

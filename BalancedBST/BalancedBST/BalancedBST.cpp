@@ -156,10 +156,14 @@ void printVals(vector<int> vals) {
 }
 
 void insertNode(TreeNode*& root, int x) {
+ /*   if (root != nullptr)
+        cout << root << " ";*/
     if (root == nullptr) {
+        cout << endl;
         root = new TreeNode(x);
         return;
     }
+    
     if (x < root->val) { // Insert left
         insertNode(root->left, x);
     }

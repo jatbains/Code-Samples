@@ -1,0 +1,2 @@
+D:\source\repos\LowestCommonAncesterofTree\Debug\LowestCommonAncesterofTree.exe
+D:\source\repos\LowestCommonAncesterofTree\Debug\LowestCommonAncesterofTree.pdb

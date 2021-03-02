@@ -1,0 +1,2 @@
+D:\source\repos\TowerOfHanoi\Debug\TowerOfHanoi.exe
+D:\source\repos\TowerOfHanoi\Debug\TowerOfHanoi.pdb
