@@ -2,8 +2,11 @@
 //
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
+
+
 
 typedef struct TreeNode {
     int val;
@@ -106,7 +109,7 @@ void BST::InOrder(TreeNode *root) {
         return;
 
     InOrder(root->left);
-    cout << root->val << endl;
+    cout << root->val << " ";
     InOrder(root->right);
 }
 
@@ -118,18 +121,89 @@ void BST::ClearTree(TreeNode*& root) {
     delete root;
     return;
 }
+
+void QSort(vector<int>& v, int l, int h);
+int partition(vector<int>& v, int l, int h);
+void BalancedTree(BST& bst, vector<int>& v);
+void InsertBST(BST& bst, vector<int>& v, int l, int h);
+
 int main()
 {
     BST bst;
+    int val = 0;
+    vector<int> vals;
     
     for (int i = 0; i < 20; i++) {
-        bst.InsertNode(rand() % 101);
+        val = rand() % 101;
+        bst.InsertNode(val);
+        vals.push_back(val);
     }
     bst.InOrder();
-
+    cout << endl;
     cout << endl << bst.DepthOfTree() << endl;
+    for (int i : vals) {
+        cout << i << " ";
+    }
+    // sort vals
+    cout << endl;
+    QSort(vals, 0, vals.size() - 1);
+    for (int i : vals) {
+        cout << i << " ";
+    }
+    // Binary Insert
 }
 
+void InsertBST(BST& bst, vector<int>& v, int l, int h) {
+
+    if (l > h)
+        return;
+    int mid = l + (h - l) / 2;
+    bst.InsertNode(v[mid]);
+    // Insert left sub tree
+    InsertBST(bst, v, l, mid - 1);
+    // INsert right subtree
+    InsertBST(bst, v, mid + 1, h);
+}
+
+void BalancedTree(BST& bst, vector<int>& v) {
+
+    int len = v.size() - 1;
+
+    InsertBST(bst, v, 0, len);
+
+}
+
+int partition(vector<int>&v, int l, int h) {
+    int pivot = v[l + (h - l) / 2];
+
+    while (l < h) {
+        while (v[l] < pivot)
+            l++;
+        while (v[h] > pivot)
+            h--;
+        if (l <= h) {
+            int x = v[l];
+            v[l] = v[h];
+            v[h] = x;
+            l++;
+            h--;
+        }
+    }
+    return l;
+}
+// Quicksort
+void QSort(vector<int>& v,int l, int h) {
+    // find partition point
+    int pi = partition(v, l, h);
+
+    if (l < pi - 1) {
+
+        QSort(v, l, pi - 1);
+    }
+    if (pi < h) {
+        QSort(v, pi , h);
+    }
+}
 
 
 // Tips for Getting Started: 
