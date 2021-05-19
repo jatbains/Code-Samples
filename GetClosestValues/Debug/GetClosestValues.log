@@ -1,0 +1,3 @@
+﻿  GetClosestValues.cpp
+D:\source\repos\GetClosestValues\GetClosestValues.cpp(44,13): warning C4018: '<': signed/unsigned mismatch
+  GetClosestValues.vcxproj -> D:\source\repos\GetClosestValues\Debug\GetClosestValues.exe
