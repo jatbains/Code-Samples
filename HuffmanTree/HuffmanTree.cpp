@@ -24,31 +24,31 @@ typedef struct Node {
     Node* right = nullptr;
     Node():symbol('0'),frequency(0),left(nullptr),right(nullptr) {}
     Node(char c, int f) :symbol(c), frequency(f), left(nullptr), right(nullptr) {}
-
 }Node;
 
-void count_frequency(Node* terminals, std::basic_string<uchar> const& input) {
+void count_frequency(Node* terminals, basic_string<uchar> const& input) {
     // ...
     int len = input.size();
 
+    // Initialize Values
     for (int i = 0; i < 256; i++) {
         terminals[i].symbol = i;
         terminals[i].frequency = 0;
     }
 
+    // Count Frequencies in input string
     for (int i = 0; i < len; i++) {
         auto const c = input[i];
 
         terminals[c].symbol = c;
         terminals[c].frequency++;
-
     }
 }
 
 int main() {
     Node terminals[256];
 
-    std::basic_string<uchar> input{ (uchar const*)"ddededdedrdabcaba\xff\xfe" };
+    basic_string<uchar> input{ (uchar const*)"ddededdedrdabcaba\xff\xfe" };
 
     count_frequency(terminals, input);
 
@@ -61,7 +61,7 @@ int main() {
 
     auto const comparer = [](Node const* lhs, Node const* rhs) {
         bool greater = lhs->symbol < rhs->symbol; // lhs smaller character
-        bool value = lhs->frequency > rhs->frequency;  // Smaller value on lhs
+        bool value = lhs->frequency > rhs->frequency;  // Greater value on lhs
         if (value) {
             return value;
         }
@@ -71,28 +71,20 @@ int main() {
         return false;
     };
 
-    priority_queue<Node*, std::vector<Node*>, decltype(comparer)> list{ comparer };
-    // INsert nodes that have a frequency > 0
+    // Heap
+    priority_queue<Node*, vector<Node*>, decltype(comparer)> list{ comparer };
+    // Insert nodes that have a frequency > 0
     for (int i = 0; i < 256; i++) {
         if (terminals[i].frequency > 0) {
             list.push(&terminals[i]);
         }
     }
 
-    /*while (!list.empty()){
-        // Print smallest and pop it
-        struct node *p = list.top();
-                cout << p->symbol << endl;
-        cout <<  "   " << p->frequency << endl;
-        // remove
-        list.pop();
-    }*/
-
     Node non_terminals[256];
     size_t nt_count = 0;
     // Go through priority queue 
     // Get two smallest nodes -- add frequencies pop
-    // Insert them back as left anf right pointers for that summed node
+    // Insert them back as left and right pointers for that summed node
     Node* a = nullptr;
     Node* b = nullptr;
 
@@ -108,6 +100,7 @@ int main() {
         nt_count++;
     }
 
+    // Non-terminals will be Huffman Tree
 }
 
 /*
@@ -127,14 +120,3 @@ int main() {
         c: 11
 */
 
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
